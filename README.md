@@ -74,29 +74,32 @@ Certifique-se de ter as seguintes ferramentas instaladas na sua máquina:
 
 ### 🚀 Passo a Passo para PC
 
-```Clone o repositório
-git clone <URL_DO_SEU_REPOSITORIO>
+**Clone o repositório**
+```
+git clone https://github.com/EsdrasMOS/Projeto-Mobile
 cd jogo-trunfo
 ```
 
-````Instale as dependência
+**Instale as dependência**
+````
 npm install
 ````
 
-````Execute o projeto no navegador
+**Execute o projeto no navegador**
+````
 npm start
 # ou, se tiver o Ionic CLI instalado:
 ionic serve
 ````
 
 ### Passo a Passo Mobile
-
-````Sicroniza os arquivos com o Capacitador
+**Sicroniza os arquivos com o Capacitador**
+````
 npx cap sync android
 ````
 
-
-````Abre no Android Studio
+**Abre no Android Studio**
+````
 npx cap open android
 ````
 
